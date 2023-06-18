@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -10,3 +10,4 @@ function App() {
 }
 
 export default App;
+// https://www.youtube.com/watch?v=6Jfk8ic3KVk&t=2425s
