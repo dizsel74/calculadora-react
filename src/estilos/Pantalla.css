@@ -1,0 +1,12 @@
+.pantalla-visel{
+    border:1px solid black;
+    height: 75px;
+    border-radius: 8px;
+    background-color: rgb(54, 52, 52);
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 30px;
+    /* color:#fbfbfb; */
+    padding:10px;
+}

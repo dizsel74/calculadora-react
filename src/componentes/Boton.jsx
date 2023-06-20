@@ -1,9 +1,21 @@
+
+import React from "react";
+import '../estilos/Boton.css'
+
 function Boton(props){
- return <div>
+
+  const esOperador = (valor) =>{
+    return isNaN(valor) && (valor != '.') && (valor != '=');
+  };
+  
+ return (
+  
+ <div 
+ className={`select-btn ${esOperador(props.children) ? 'operador' : ''} `.trimEnd()}>
     {props.children}
-    {props.num}
   </div>
-  ;
+ 
+ );
 }
 
   export default Boton;
