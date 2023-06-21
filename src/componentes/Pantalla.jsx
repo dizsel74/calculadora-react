@@ -1,8 +1,12 @@
 import React from "react"
 import '../estilos/Pantalla.css'
-function Pantalla(props6){
+
+function Pantalla(props){
     return(
-        <div className="">hola</div>
+        <div className='input'>
+            {props.input}
+        </div>
     );
 }
+
 export default Pantalla;

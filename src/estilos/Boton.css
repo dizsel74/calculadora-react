@@ -1,7 +1,8 @@
-.select-btn{
+.select-btn, 
+.btn-clear{
     border-radius: 5px;
-    border :solid #001100 1px;
-    padding: 4px 16px;
+    border :solid #7a7e7a 1px;
+    padding-block: 4px;
     cursor: pointer;
     background-color:#3C486B;
     color: #F0F0F0;
@@ -10,14 +11,31 @@
     justify-content: center;
     align-items: center;
     user-select: none;
-   font-size: 38px;
-  }
-  .select-btn:hover{
-  opacity: 80%;
-  }
-  
-  .operador{
-    background-color: rgb(90, 96, 100);
-    padding-inline: 24px;
+    font-size: 38px;
   }
  
+  
+  .operador, 
+  .btn-clear,
+  .select-btn{
+    padding-inline: 24px;
+  }
+  .operador{
+    background-color: rgb(90, 96, 100);
+    border-color: #F0F0F0;
+  }
+  .btn-clear{
+    border-color: #F45050;
+    background-color: #F45050;
+  }
+
+  .select-btn:hover, 
+  .btn-clear:hover{
+    opacity: 80%;
+    }
+
+    .igual{
+      background-color: aquamarine;
+      color:#3C486B;
+      border-color: #3C486B;
+    }
