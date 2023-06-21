@@ -14,7 +14,13 @@ function App() {
 
   
   function capturarNumero(val) {
-    setInput(num + val);
+    console.log ('val = '+val);
+if (isNaN(val) && num.at(-1) === val){ /*verifica que no se pueda ingresar dos operadores o puntos seguidos*/
+  setInput(num);
+}else{
+  setInput(num + val);
+}
+
   }
  
   function borrarPantalla() {
